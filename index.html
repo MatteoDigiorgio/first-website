@@ -8,7 +8,7 @@
         color: #665544;
         padding: 10px}
       .page  {
-        border: 1px solid #665544;       
+        border: 2px solid #665544;       
         background-color: #F5A31E;
         padding: inherit;}
       h1  {
@@ -32,15 +32,21 @@
 </head>
 <body>
   <div class="page">
-    <h1>This is my first website</h1>
+    <h1 id="top">This is my first website</h1>
+    <a href="#intro">INTRO</a><br />
+    <a href="#opentaste">OPENTASTE</a><br />
+    <a href="#parmesan">PARMESAN</a>
     <p id="intro">This is an <i>example</i> of <b>paragraph</b></p>
     <p>It was the <del>worst</del> <ins>best</ins> idea she had ever had</p>
     <p>Simon said:<q>What time is it?</q></p>
   <hr />
-    <p><acronym title="OpenTaste">OT</acronym> is a cooking website</p>
+    <img src="/Users/leonardo/Documents/Immagini/Code img./bombolone_vector.jpg" alt="Bombolone" width="145" height="145" align="right">
+    <h2>Opentaste</h2>
+    <p id="opentaste"><acronym title="OpenTaste">OT</acronym> is a cooking website</p>
     <p>Click <a href="http://opentaste.eu/" target="_blank">here</a> to go to the website</p>
     <p>If there are any problems, please contact this email <a href="mailto:matthew.digiorgio@gmail.com">Matthew Email</a></p>
   <hr />
+    <h2>Recipe</h2>
     <ol>
       <li>Chop potatoes into quarters</li>
       <li>Simmer in salted water for 15-20 minutes until tender</li>
@@ -54,9 +60,11 @@
     </ul>
   <hr />
     <dl>
-  	  <dt><b>Parmesan</b></dt>
+  	  <img src="/Users/leonardo/Documents/Immagini/Code img./Parmesan.jpg" alt="Parmesan" width="200" height="100" align="right">
+  	  <h2 id="parmesan"><dt><b>Parmesan</b></dt></h2>
       <dd>Parmesan cheese is a typical Italian cheese that is produced in Emilia Romagna</dd>
     </dl>
+    <a href="#top">TOP</a>
   </div>
 </body>
 </html>
