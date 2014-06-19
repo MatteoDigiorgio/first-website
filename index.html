@@ -17,6 +17,13 @@
       .recipe  {
         font-family:  Comic;
         line-height: 1.2em;}
+      .intro  {
+      	font-size: 100%;
+        background-color: #89E633;
+        opacity: 0.5;}
+      .introtab  {
+      	font-size: 18px;
+        word-spacing: 0.3em;}
       h1  {
         background-color: rgba(230,230,50,0.5);
         color: black;}
@@ -26,13 +33,6 @@
         color: green !important;}
       i  {
         color: red;}
-      p#intro  {
-        font-size: 100%;
-        background-color: #89E633;
-        opacity: 0.5;}
-      p#IntroTab  {
-        font-size: 18px;
-        word-spacing: 0.3em;}
       p  {
         font-size: 85%;}
       dt  {
@@ -49,22 +49,22 @@
   <div class="page">
     <h1 id="top">This is my first website</h1>
     <a href="#intro">INTRO</a><br />
-    <a href="#opentaste">OPENTASTE</a><br />
+    <a href="#ot">OPENTASTE</a><br />
     <a href="#parmesan">PARMESAN</a>
-    <p id="intro">This is an <i>example</i> of <b>paragraph</b></p>
+    <p class="intro" id="intro">This is an <i>example</i> of <b>paragraph</b></p>
     <p>It was the <del>worst</del> <ins>best</ins> idea she had ever had</p>
     <p>Simon said:<q>What time is it?</q></p>
   <hr/>
   <div class="opentaste">
-    <h2>OpenTaste</h2>  
+    <h2 id="ot">OpenTaste</h2>  
     <figure>
       <img src="/Users/leonardo/Documents/Immagini/Code img./bombolone_vector.jpg" alt="Bombolone" width="145" height="145"/>
       <figcaption>This is the logo of OpenTaste!</figcaption>
     </figure>
-    <p id="opentaste"><acronym title="OpenTaste">OT</acronym> is a cooking website</p>
+    <p><acronym title="OpenTaste">OT</acronym> is a cooking website</p>
     <p>Click <a href="http://opentaste.eu/" target="_blank">here</a> to go to the website</p>
     <p>If there are any problems, please contact this email <a href="mailto:matthew.digiorgio@gmail.com">Matthew Email</a></p>
-    <p id="IntroTab"><b>Demographic data of the last month:</b></p>
+    <p class="introtab"><b>Demographic data of the last month:</b></p>
     <table>
       <thead>
         <tr>
