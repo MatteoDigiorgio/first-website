@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>This is my first website</title>
-	<style type="text/css">
+  <title>This is my first website</title>
+  <style type="text/css">
       body  { 
         font-family:  arial;
         color: #665544;
@@ -15,20 +15,20 @@
         font-family:  Georgia;
         font-size: 16px;}
       .recipe:first-line  {
-      	font-size: 20px}
+        font-size: 20px}
       .recipe  {
         font-family:  Comic;
         line-height: 1.2em;}
       .intro:first-letter  {
-      	font-size: 30px;}
+        font-size: 30px;}
       .intro  {
-      	font-size: 16px;
+        font-size: 16px;
         background-color: #89E633;
         opacity: 0.5;}
       .introtab  {
-      	font-size: 18px;
-        word-spacing: 0.3em;
-    	text-shadow: 2px 2px 8px;}
+        font-size: 18px;
+        word-spacing: 0.3em;  
+        text-shadow: 2px 2px 8px;}
       h1  {
         background-color: rgba(230,230,50,0.5);
         color: black;}
@@ -45,10 +45,10 @@
       dd  {
         color: hsla(170,100%,50%,0.6);}
       table  {
-      	border: 3px solid #efefef;
-      	background-color: #00c3ff;
-      	border-collapse: white;}
-      </style>
+        border: 3px solid #efefef;
+        background-color: #00c3ff;
+        border-collapse: white;}
+  </style>
 </head>
 <body>
   <div class="page">
@@ -69,6 +69,14 @@
     <p><acronym title="OpenTaste">OT</acronym> is a cooking website</p>
     <p>Click <a href="http://opentaste.eu/" target="_blank">here</a> to go to the website</p>
     <p>If there are any problems, please contact this email <a href="mailto:matthew.digiorgio@gmail.com">Matthew Email</a></p>
+    <form action="/login/">
+      <p>Username:
+      	<input type="text" name="username" size="15" maxlength="30" />
+      </p>
+      <p>Password:
+      	<input type="password" name="password" size="15" maxlength="30" />
+      </p>
+    </form>
     <p class="introtab"><b>Demographic data of the last month:</b></p>
     <table>
       <thead>
@@ -112,11 +120,28 @@
   </div>
   <hr/>
     <dl>
-  	  <img src="/Users/leonardo/Documents/Immagini/Code img./Parmesan.jpg" alt="Parmesan" width="200" height="100" align="right">
-  	  <h2 id="parmesan"><dt><b>Parmesan</b></dt></h2>
+      <img src="/Users/leonardo/Documents/Immagini/Code img./Parmesan.jpg" alt="Parmesan" width="200" height="100" align="right">
+      <h2 id="parmesan"><dt><b>Parmesan</b></dt></h2>
       <dd>Parmesan cheese is a typical Italian cheese that is produced in Emilia Romagna</dd>
     </dl>
     <a href="#top">TOP</a>
+  <hr/>
+  <form>
+  	<p>Select your favorite genre:
+  	  <br/>
+  	  <input type="radio" name="genre" value="rock" checked="checked" />Rock
+  	  <input type="radio" name="genre" value="pop" />Pop
+  	  <input type="radio" name="genre" value="jazz" />Jazz
+  	</p>
+  </form>
+  <form>
+  	<p>Select your favorite music service(s):
+  	  <br/>
+  	  <input type="checkbox" name="service" value="itunes" />iTunes
+  	  <input type="checkbox" name="service" value="lastfm" />Last.fm
+  	  <input type="checkbox" name="service" value="spotify" checked="checked" />Spotify
+  	</p>
+  </form>
   </div>
 </body>
 </html>
