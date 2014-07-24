@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- This is an example of a comment that it is not visible in the browser -->
   <div class="page">
     <h1 id="top">This is my first website</h1>
     <a href="#intro">INTRO</a><br />
@@ -22,12 +23,12 @@
     </figure>
     <p><acronym title="OpenTaste">OT</acronym> is a cooking website</p>
     <p>Click <a href="http://opentaste.eu/" target="_blank">here</a> to go to the website</p>
-    <p>If there are any problems, please contact this email <a href="mailto:matthew.digiorgio@gmail.com">Matthew Email</a></p>
+    <p>If there are any <span class="problems">PROBLEMS</span>, please contact this email <a href="mailto:matthew.digiorgio@gmail.com">Matthew Email</a></p>
     <form action="/login/">
       <label for="username">Username:</label>
-      <input type="text" name="username" required="required" size="15" maxlength="30" /></title><br/>
+      <input type="text" name="username" required="required" maxlength="30" /></title><br/>
       <label for="password">Password:</label>
-      <input type="password" name="password" required="required" size="15" maxlength="30" />
+      <input type="password" name="password" required="required" maxlength="30" />
       <input type="submit" value="Submit" />
     </form>
     <p class="introtab"><b>Demographic data of the last month:</b></p>
@@ -108,7 +109,7 @@
   	<p>Do you play any instruments?<br/>(You can select more than one<br/> 
   	   option by holding down control<br/> on a PC or command key on a<br/> 
   	   Mac while selecting different<br/> options.)</p>
-  	<select name="instruments" size="3" multiple="multiple">
+  	<select name="instruments" multiple="multiple">
   	  <option value="guitar" selected="selected">Guitar</option>
   	  <option value="drums">Drums</option>
   	  <option value="keyboard">Keyboard</option>
@@ -144,7 +145,28 @@
   	<input type="date" name="depart" />
   	<input type="submit" value="Submit" />
   </form>
+  <form>
+  	<p>Please enter your email address:</p>
+  	<input type="email" name="email" />
+  	<input type="submit" value="Submit" />
+  </form>
+  <form>
+  	<p>Please enter your website address:</p>
+  	<input type="url" name="website" />
+  	<input type="submit" value="Submit" />
+  </form>
+  <form>
+  	<p>Search:</p>
+  	<input type="search" name="search" placeholder="Enter Keyword" />
+  	<input type="submit" value="Search" />
+  </form>
   <a href="#top">TOP</a>
+  <hr/>
+  <iframe 
+    width="450"
+    height="350"
+    src="https://www.google.it/maps/place/Via+Giuseppe+Sacconi,+74122+Taranto+TA/@40.3936193,17.2786749,17z/data=!4m2!3m1!1s0x13471d8d86259465:0xedaf70e1c2f7c04d">
+  </iframe>
   </div>  
 </body>
 </html>
