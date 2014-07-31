@@ -7,12 +7,20 @@ body  {
   background-color: #F5A31E;
   padding: inherit;}
 .opentaste  {
-  font-family:  Georgia;}
+  font-family:  Georgia;
+  font-size: 16px;}
 .recipe:first-line  {
   font-size: 20px}
 .recipe  {
   font-family:  Comic;
-  line-height: 1.2em;}
+  line-height: 1.2em;
+  font-family:  Comic;
+  line-height: 1.2em;
+  border-width: 2px 4px 6px 4px;
+  border-style: dotted;
+  border-color: red black blue white;
+  padding: 5px;
+  margin: 5px;}
 .intro:first-letter  {
   font-size: 30px;}
 .intro  {
